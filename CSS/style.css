@@ -1,0 +1,61 @@
+body {
+  background-color: hsl(0, 51%, 86%);
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  background: rgb(244, 224, 246);
+  padding: 20px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  background-color: hsl(198, 73%, 77%);
+  padding: 30px;
+  margin: 20px 0;
+}
+
+/* Products */
+.products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Card + Box Model */
+.card {
+  border: 1px solid #230c26;
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
